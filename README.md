@@ -1,12 +1,12 @@
 # -JavaScript-Style-Guide
 
 ## 1. Используйте понятные имена переменных и функций.
-
+``` js
 function averageArray (array) {
   let sum = array.reduce((number, currentSum) => number + currentSum)
   return sum / array.length
   }
-
+```
 
 Имя переменной – существительное.
 Имя функции – глагол или начинается с глагола. Бывает, что имена для краткости делают существительными, но глаголы понятнее.
